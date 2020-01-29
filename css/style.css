@@ -95,9 +95,21 @@ h4 {
   border-radius: 25px;
 }
 
+.btn-large:hover {
+  color: #4405d6;
+}
+
 .btn-registrazione {
   width: 100%;
   border-radius: 25px;
+}
+
+.btn-registrazione:hover {
+  color: #4405d6;
+}
+
+.typeform-share:hover {
+  color: #4405d6;
 }
 
 .row center {
