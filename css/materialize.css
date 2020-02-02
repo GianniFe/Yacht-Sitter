@@ -1,7 +1,7 @@
 /*!
  * Materialize v1.0.0-rc.1 (https://materializecss.com)
  * Copyright 2014-2017 Materialize
- * MIT License (httpss://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
+ * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
 .materialize-red {
   background-color: #e51c23 !important;
@@ -5626,7 +5626,7 @@ body.keyboard-focused .dropdown-content li:focus {
  *
  * Copyright 2014 Alfiana E. Sibuea and other contributors
  * Released under the MIT license
- * httpss://github.com/fians/Waves/blob/master/LICENSE
+ * https://github.com/fians/Waves/blob/master/LICENSE
  */
 .waves-effect {
   position: relative;
@@ -7843,7 +7843,7 @@ input[type=range]::-ms-thumb {
  * We write out each animation in full (instead of separating animation-name,
  * animation-duration, etc.) because under the polyfill, Safari does not recognize those
  * specific properties properly, treats them as -webkit-animation, and overrides the
- * other animation rules. See httpss://github.com/Polymer/platform/issues/53.
+ * other animation rules. See https://github.com/Polymer/platform/issues/53.
  */
 .active .spinner-layer.spinner-blue {
   /* durations: 4 * ARCTIME */
