@@ -181,6 +181,10 @@ h4 {
   color: #4405d6;
 }
 
+.privacy {
+  padding-left: 10rem;
+}
+
 .footer-copyright {
   font-size: 1.5rem;
   background-color: #e1e1e9;
