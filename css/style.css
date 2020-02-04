@@ -108,6 +108,15 @@ h4 {
   color: #4405d6;
 }
 
+.btn-marina {
+  width: 30%;
+  border-radius: 35px;
+}
+
+.btn-marina:hover {
+  animation: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
 .typeform-share:hover {
   color: #4405d6;
 }
