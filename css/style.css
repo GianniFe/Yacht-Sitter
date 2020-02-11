@@ -180,6 +180,7 @@ h4 {
   padding: 5rem 5rem;
   background-image: image(img1.jpg);
   background-repeat: no-repeat;
+  background-size: 80%;
 }
 
 .social-icon {
