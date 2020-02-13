@@ -138,18 +138,6 @@ h4 {
   width: 100%;
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  border-radius: 25px;
-  }
-
-.item {
-  flex-basis: 25%;
-  padding: 20px;
-
-}
-
 .parallax-container {
   min-height: 800px;
   line-height: 1.5;
