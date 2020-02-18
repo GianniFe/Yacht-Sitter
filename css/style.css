@@ -23,7 +23,7 @@ p {
   line-height: 2rem;
 }
 
-#index-banner, parallax-container {
+#index-banner, parallax-container1 {
     color: #05045a;
     font-size: 3rem;
     font-weight: normal;
@@ -118,7 +118,7 @@ h4 {
   color: #4405d6;
 }
 
-.row center {
+.row .center {
   border-radius: 25px;
 }
 
@@ -130,15 +130,28 @@ h4 {
 
 .quotations {
   padding-top: 40px;
+  border-radius: 25px;
   width: 100%;
   min-height: 800px;
   height: auto;
   background-image: url(img2.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
 }
 
-.container {
+.contact {
+  font-size: 2.5rem;
+  border-radius: 25px;
+  padding: 5rem 5rem;
+  height: auto;
+  background-image: url(img1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.container1 {
   display: flex;
   flex-wrap: wrap;
   border-radius: 25px;
@@ -147,10 +160,9 @@ h4 {
 .item {
   flex-basis: 25%;
   padding: 20px;
-
 }
 
-.parallax-container {
+.parallax-container1 {
   width: 100%;
   min-height: 800px;
   line-height: 1.5;
@@ -160,7 +172,7 @@ h4 {
 }
 
 @media only screen and (max-width : 992px) {
-  .parallax-container .section {
+  .parallax-container1 .section {
     width: 100%;
     height: auto;
     position: absolute;
@@ -192,15 +204,6 @@ h4 {
 }
 .icon-block .material-icons {
   font-size: inherit;
-}
-
-.contact {
-  font-size: 2.5rem;
-  border-radius: 25px;
-  padding: 5rem 5rem;
-  background-image: image(img1.jpg);
-  background-repeat: no-repeat;
-  background-size: 80%;
 }
 
 .social-icon {
