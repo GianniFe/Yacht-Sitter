@@ -19,6 +19,10 @@ body {
   padding: 0 15rem;
 }
 
+.page2{
+box-sizing: border-box;
+}
+
 p {
   line-height: 2rem;
 }
@@ -42,6 +46,10 @@ p {
 .section-intro {
   width: 100%;
   height: auto;
+}
+
+.row2 {
+  display: flex;
 }
 
 .Location {
