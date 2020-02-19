@@ -25,11 +25,6 @@ box-sizing: border-box;
 
 p {
   line-height: 2rem;
-  margin: 10px;
-  color: rgb(25, 6, 134);
-  font-size: 1.8rem;
-  background-color: rgba(143, 245, 189, 0.7);
-  border-radius: 25px
 }
 
 #index-banner, parallax-container1 {
@@ -63,8 +58,16 @@ p {
   width: 100%;
 }
 
+.one {
+  list-style: inside;
+  color: rgb(25, 6, 134);
+  font-size: 1.8rem;
+  background-color: rgba(143, 245, 189, 0.7);
+  border-radius: 25px;
+}
+
 h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: #180658;
   background-color: rgba(143, 245, 189, 0.7);
   border-radius: 25px;
@@ -73,7 +76,7 @@ h1 {
 h2 {
   font-size: 2.5rem;
   color: #180658;
-  background-color: rgba(156, 185, 248, 0.7);
+  background-color: rgba(143, 245, 189, 0.7);
   border-radius: 25px;
 }
 
@@ -104,7 +107,6 @@ h4 {
 .btn-registrazione {
   width: 100%;
   border-radius: 25px;
-  padding: 10px;
 }
 
 .btn-registrazione:hover {
@@ -140,7 +142,7 @@ h4 {
 .contact {
   font-size: 2.5rem;
   border-radius: 25px;
-  padding: 10rem 5rem;
+  padding: 5rem 5rem;
   height: auto;
   background-image: url(img1.jpg);
   background-repeat: no-repeat;
@@ -197,7 +199,7 @@ h4 {
 }
 
 .icon-block {
-  padding: 0 25px;
+  padding: 0 15px;
 }
 .icon-block .material-icons {
   font-size: inherit;
@@ -206,7 +208,7 @@ h4 {
 .social-icon {
   font-size: 4rem;
   color: #ef5350;
-  padding: 20px 60px;
+  padding: 0 30px;
 }
 
 .social-icon:hover {

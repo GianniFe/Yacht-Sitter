@@ -49,7 +49,7 @@ p {
 }
 
 .section-intro {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
@@ -60,7 +60,7 @@ p {
 .Location {
   padding-top: 50px;
   height: 100%;
-  width: 100%;
+  width: 80%;
 }
 
 h1 {
@@ -92,7 +92,7 @@ h4 {
 }
 
 .btn-large {
-  width: 100%;
+  width: 60%;
   margin-top: 5rem;
   border-radius: 25px;
 }
@@ -102,7 +102,7 @@ h4 {
 }
 
 .btn-registrazione {
-  width: 100%;
+  width: 60%;
   border-radius: 25px;
   padding: 10px;
 }
@@ -128,7 +128,7 @@ h4 {
 .quotations {
   padding-top: 40px;
   border-radius: 25px;
-  width: 100%;
+  width: 80%;
   min-height: 800px;
   height: auto;
   background-image: url(img2.jpg);
