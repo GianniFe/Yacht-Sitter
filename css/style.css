@@ -64,28 +64,28 @@ p {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 4.5rem;
   color: #180658;
   background-color: rgba(143, 245, 189, 0.7);
   border-radius: 25px;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 4rem;
   color: #180658;
   background-color: rgba(156, 185, 248, 0.7);
   border-radius: 25px;
 }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   color: #180658;
   background-color: rgba(143, 245, 189, 0.7);
   border-radius: 25px;
 }
 
 h4 {
-  font-size: 1.9rem;
+  font-size: 2.5rem;
   color: #180658;
   background-color: rgba(143, 245, 189, 0.8);
   border-radius: 25px;
@@ -218,7 +218,7 @@ h4 {
 }
 
 .footer-copyright {
-  font-size: 1.5rem;
+  font-size: 0.8rem;
   background-color: #e1e1e9;
   border-radius: 25px;
 }
