@@ -42,12 +42,10 @@ parallax-container1 {
     background-image: url(background3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 50rem;
 }
 
-.intro2 {
-    width: 100%;
-    padding: 5rem;
+#index-banner {
+    min-height: 50rem;
 }
 
 .section-intro {
@@ -55,34 +53,19 @@ parallax-container1 {
     height: auto;
 }
 
-.row2 {
-    display: flex;
-}
-
-.tabella {
-    font-size: 2rem;
-    color: #05045ae1;
-    background-color: rgba(128, 208, 245, 0.7);
-    border-radius: 25px;
-    padding: 5rem;
-}
-
-.container2 {
-    border: 2 px solid blue;
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 25px;
+.section-intro2 {
+    color: #05045a;
     font-size: 3rem;
     font-weight: normal;
     padding: 15rem 0;
     border-radius: 25px;
+    background-image: url(img5s.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.item {
-    background: rgba(128, 208, 245, 0.7);
-    flex-basis: 25%;
-    padding: 10px 15px;
-    border-radius: 25px;
+.row2 {
+    display: flex;
 }
 
 .Location {
@@ -147,10 +130,6 @@ h4 {
     border-radius: 25px;
 }
 
-.row2 .center {
-    border-radius: 25px;
-}
-
 .Services {
     padding-top: 50px;
     width: 100%;
@@ -172,7 +151,7 @@ h4 {
 .contact {
     font-size: 2.5rem;
     border-radius: 25px;
-    padding: 10rem 25rem;
+    padding: 10rem 5rem;
     height: auto;
     background-image: url(img1.jpg);
     background-repeat: no-repeat;
@@ -200,29 +179,10 @@ h4 {
     border-radius: 25px;
 }
 
-.parallax-container2 {
-    min-height: 800px;
-    line-height: 1.5;
-    height: auto;
-    color: rgba(255, 255, 255, .5);
-    border-radius: 25px;
-}
-
 @media only screen and (max-width: 992px) {
     .parallax-container1 .section {
         width: 100%;
         height: auto;
-        position: absolute;
-        top: 40%;
-        border-radius: 25px;
-    }
-    #index-banner .section {
-        top: 10%;
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    .parallax-container2 .section {
         position: absolute;
         top: 40%;
         border-radius: 25px;
@@ -237,11 +197,6 @@ h4 {
         width: 100%;
         top: 20%;
         height: auto;
-        .item {
-            background: rgba(255, 255, 255, .5);
-            flex-basis: 50%;
-            padding: 30%;
-        }
     }
     .nav-wrapper {
         padding: 0 10px;
@@ -253,23 +208,17 @@ h4 {
 }
 
 .icon-block {
-    padding: 25px;
+    padding: 0 25px;
 }
 
 .icon-block .material-icons {
     font-size: inherit;
 }
 
-.contact {
-    font-size: 2.5rem;
-    border-radius: 25px;
-    padding: 5rem 5rem;
-}
-
 .social-icon {
-    font-size: 5rem;
+    font-size: 4rem;
     color: #ef5350;
-    padding: 20px 80px;
+    padding: 20px 60px;
 }
 
 .social-icon:hover {
