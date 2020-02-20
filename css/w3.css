@@ -1058,6 +1058,11 @@ a {
     padding: 0.01em 16px
 }
 
+.w3-container2 {
+    padding: 5px 10%;
+    border-radius: 25px;
+}
+
 .w3-panel {
     margin-top: 16px;
     margin-bottom: 16px
