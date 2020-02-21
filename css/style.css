@@ -130,6 +130,46 @@ h4 {
     color: #4405d6;
 }
 
+.btn-large1 {
+    width: 100%;
+    border-radius: 25px;
+    text-align: middle;
+    color: #180658;
+}
+
+.btn-large1:hover {
+    color: #4405d6;
+}
+
+.btn-large1:hover {
+  background-color: rgba(143, 245, 189, 0.8);
+}
+
+.btn-large1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-large1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn1-large1:hover span {
+  padding-right: 25px;
+}
+
+.btn-large1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
 .btn-registrazione {
     width: 100%;
     border-radius: 25px;
