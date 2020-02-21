@@ -123,6 +123,7 @@ h4 {
     width: 100%;
     margin-top: 5rem;
     border-radius: 25px;
+    padding: 5px;
 }
 
 .btn-large:hover {
