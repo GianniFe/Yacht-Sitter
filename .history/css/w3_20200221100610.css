@@ -1059,26 +1059,10 @@ a {
 }
 
 .w3-container2 {
-    font-size: 1rem;
+    font-size: 1.8rem;
     color: #05045ae1;
+    padding: 5px 10%;
     border-radius: 25px;
-    margin: 40px;
-    width: 80%;
-    height: auto;
-    background-color: rgba(128, 208, 245, 0.7);
-}
-
-.w3bora {
-    margin: 40px;
-    width: auto;
-    height: 600px;
-    border-radius: 25px;
-}
-
-.w3gianni {
-    font-size: 2rem;
-    border-radius: 25px;
-    margin: 40px;
     width: 80%;
     height: auto;
     background-color: rgba(128, 208, 245, 0.7);
