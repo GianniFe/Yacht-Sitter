@@ -34,6 +34,7 @@ menu,
 nav,
 section {
     display: block
+    width: 90%;
 }
 
 summary {
@@ -270,6 +271,19 @@ h6 {
     font-family: "Segoe UI", Arial, sans-serif;
     font-weight: 400;
     margin: 10px 0
+}
+
+.marinas {
+  width: 90%;
+  color: #05045a;
+  font-size: 3rem;
+  font-weight: normal;
+  padding: 15rem 0;
+  border-radius: 25px;
+  background-image: url(img5s.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50rem;
 }
 
 .w3-wide {
@@ -1059,7 +1073,7 @@ a {
 }
 
 .w3-container2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #05045ae1;
     border-radius: 25px;
     margin: 40px;
@@ -1075,11 +1089,8 @@ a {
   max-width: 80%;
 }
 
-.w3bora {
-    margin: 40px;
-    width: auto;
-    height: 600px;
-    border-radius: 25px;
+.Moorings {
+  padding-top: 60px;
 }
 
 .w3gianni {
@@ -1396,6 +1407,7 @@ a {
 .w3-code {
     margin-top: 16px!important;
     margin-bottom: 16px!important
+    width: 90%!important
 }
 
 .w3-margin {

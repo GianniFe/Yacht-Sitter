@@ -2963,10 +2963,6 @@ video.responsive-video {
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    -webkit-transform: translateX(-10%);
-    transform: translateX(-10%);
 }
 
 .pin-top,
@@ -3600,6 +3596,7 @@ table span.badge {
 .section {
     padding-top: 1rem;
     padding-bottom: 1rem;
+    width: 90%
 }
 
 .section.no-pad {
