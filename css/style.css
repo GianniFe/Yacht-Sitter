@@ -59,8 +59,8 @@ parallax-container2 {
 }
 
 .intro {
-  width: 100%;
-  padding: 2rem;
+    width: 100%;
+    padding: 2rem;
 }
 
 .intro2 {
@@ -78,69 +78,72 @@ parallax-container2 {
 }
 
 table {
-  border-collapse: collapse;
-  width: 100%;
+    border-collapse: collapse;
+    width: 100%;
 }
 
-th, td {
-  text-align: left;
-  padding: 8px;
+th,
+td {
+    text-align: left;
+    padding: 8px;
 }
 
-tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
 
 div.gallery {
-  margin: 5px;
-  border: 3px solid #blue;
-  float: left;
-  width: 300px;
-  border-radius: 25px;
+    margin: 5px;
+    border: 3px solid blue;
+    float: left;
+    width: 300px;
+    border-radius: 25px;
 }
 
 div.gallery:hover {
-  border: 3px solid #777;
+    border: 3px solid red;
 }
 
 div.gallery img {
-  width: 100%;
-  height: auto;
-  border-radius: 25px;
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
 }
 
 div.desc {
-  padding: 15px;
-  text-align: center;
-  background-color: rgba(128, 208, 245, 0.7);
-  border-radius: 25px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(128, 208, 245, 0.7);
+    border-radius: 25px;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
 }
 
 @media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
 }
 
 @media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
+    .responsive {
+        width: 100%;
+    }
 }
 
 .clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .container2 {
@@ -162,7 +165,7 @@ div.desc {
 }
 
 .Moorings {
-  padding-top: 90px;
+    padding-top: 90px;
 }
 
 .Location {
@@ -222,32 +225,32 @@ h4 {
 }
 
 .btn-large1:hover {
-  background-color: rgba(143, 245, 189, 0.8);
+    background-color: rgba(143, 245, 189, 0.8);
 }
 
 .btn-large1 span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
 }
 
 .btn-large1 span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
 }
 
 .btn1-large1:hover span {
-  padding-right: 25px;
+    padding-right: 25px;
 }
 
 .btn-large1:hover span:after {
-  opacity: 1;
-  right: 0;
+    opacity: 1;
+    right: 0;
 }
 
 .btn-registrazione {
@@ -359,15 +362,15 @@ h4 {
         width: 100%;
         top: 20%;
         height: auto;
-        }
-        .item {
-            background: rgba(255, 255, 255, .5);
-            flex-basis: 50%;
-            padding: 30%;
-        }
-        .nav-wrapper {
+    }
+    .item {
+        background: rgba(255, 255, 255, .5);
+        flex-basis: 50%;
+        padding: 30%;
+    }
+    .nav-wrapper {
         padding: 0 10px;
-        }
+    }
 }
 
 .icon-block {
@@ -516,7 +519,7 @@ figure {
 }
 
 img {
-    border-style: none
+    border-style: none;
     padding: 40px;
 }
 
@@ -606,7 +609,6 @@ textarea {
 [type=number]::-webkit-outer-spin-button {
     height: auto
 }
-
 
 [type=search] {
     -webkit-appearance: textfield;
@@ -1470,11 +1472,10 @@ a {
     background-color: rgba(128, 208, 245, 0.7);
 }
 
-
 .weatherwidget-io {
-  margin: 40px;
-  border-radius: 25px;
-  max-width: 80%;
+    margin: 40px;
+    border-radius: 25px;
+    max-width: 80%;
 }
 
 .w3bora {
@@ -1491,10 +1492,12 @@ a {
     margin: 40px;
     width: 80%;
     height: auto;
-    background-color: rgba(128, 208, 245, 0.7);}
-    .social-icon {
+    background-color: rgba(128, 208, 245, 0.7);
+}
+
+.social-icon {
     font-size: 3rem;
-  }
+}
 
 .w3-panel {
     margin-top: 16px;
@@ -1933,6 +1936,7 @@ a {
     color: #fff!important;
     background-color: #4CAF50!important
 }
+
 .w3-light-green,
 .w3-hover-light-green:hover {
     color: #000!important;
