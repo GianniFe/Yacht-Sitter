@@ -413,6 +413,12 @@ h4 {
     border-radius: 25px;
 }
 
+.localnews {
+    padding-top: 60px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+}
+
 html {
     box-sizing: border-box
 }
