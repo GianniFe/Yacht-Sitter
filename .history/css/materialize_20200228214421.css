@@ -3560,7 +3560,7 @@ table span.badge {
     width: 95%;
 }
 
-media only screen and (min-width: 601px) {
+@media only screen and (min-width: 601px) {
     .container {
         width: 95%;
     }
