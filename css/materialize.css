@@ -4424,11 +4424,6 @@ nav i.material-icons {
     line-height: 56px;
 }
 
-nav .nav-wrapper {
-    position: relative;
-    height: 100%;
-}
-
 @media only screen and (min-width: 993px) {
     nav a.sidenav-trigger {
         display: none;
@@ -4601,6 +4596,7 @@ nav .input-field label.active i {
 .navbar-fixed {
     position: relative;
     height: 56px;
+    width: 100%;
     z-index: 997;
 }
 
@@ -5371,7 +5367,7 @@ small {
 .btn-large,
 .btn-small,
 .btn-flat {
-    font-size: 14px;
+    font-size: 1.5rem;
     outline: 0;
 }
 

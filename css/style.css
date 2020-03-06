@@ -5,6 +5,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 .nav .brand-logo {
@@ -14,6 +16,10 @@ body {
 
 .nav-wrapper {
   padding: 0 50px;
+  width: 100%;
+  height: auto;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 2vw;
 }
 
 .nav ul a {
@@ -22,15 +28,11 @@ body {
   padding: 0 15rem;
 }
 
-.page2 {
-  box-sizing: border-box;
-}
-
 p {
   line-height: 3vw;
   margin: 10px;
   color: blue;
-  font-family: Verdana, Arial, serif;
+  font-family: Verdana, Arial, sans-serif;
   font-size: 2.5vw;
   background-color: rgba(143, 245, 189, 0.7);
   border-radius: 25px
@@ -187,21 +189,21 @@ h1 {
 }
 
 h2 {
-  font-size: 5vw;
+  font-size: 4vw;
   color: #180658;
   background-color: rgba(156, 185, 248, 0.7);
   border-radius: 25px;
 }
 
 h3 {
-  font-size: 4vw;
+  font-size: 3vw;
   color: #180658;
   background-color: rgba(143, 245, 189, 0.7);
   border-radius: 25px;
 }
 
 h4 {
-  font-size: 3vw;
+  font-size: 2vw;
   color: #180658;
   background-color: rgba(143, 245, 189, 0.8);
   border-radius: 25px;
@@ -209,28 +211,32 @@ h4 {
 
 .btn-large {
   width: 100%;
+  height: auto;
+  color: white;
+  background-color: #ef5350;
   margin-top: 5rem;
   border-radius: 25px;
   padding: 5px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 4vw;
 }
 
 .btn-large:hover {
   color: #4405d6;
+  background-color: lightblue;
 }
 
 .btn-large1 {
   width: 100%;
   border-radius: 25px;
-  text-align: middle;
-  color: #180658;
+  padding: 5px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 4vw;
 }
 
 .btn-large1:hover {
   color: #4405d6;
-}
-
-.btn-large1:hover {
-  background-color: rgba(143, 245, 189, 0.8);
+  background-color: lightblue;
 }
 
 .btn-large1 span {
@@ -260,16 +266,19 @@ h4 {
 
 .btn-registrazione {
   width: 100%;
-  border-radius: 25px;
+  height: auto%
   padding: 10px;
+  background-color: #ef5350;
+  color: white;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 4vw;
+  text-align: center;
+  border-radius: 25px;
 }
 
 .btn-registrazione:hover {
-  color: #4405d6;
-}
-
-.typeform-share:hover {
-  color: #4405d6;
+  color: darkblue;
+  background-color: lightblue;
 }
 
 .row .center {
@@ -577,7 +586,7 @@ input,
 select,
 textarea,
 optgroup {
-  font: inherit;
+  font-family: Verdana, Arial, sans-serif;
   margin: 0
 }
 
@@ -614,7 +623,7 @@ button:-moz-focusring,
 [type=button]:-moz-focusring,
 [type=reset]:-moz-focusring,
 [type=submit]:-moz-focusring {
-  outline: 1px dotted ButtonText
+  outline: 1px dotted Button-Text;
 }
 
 fieldset {
@@ -1494,7 +1503,8 @@ a {
 }
 
 .social-icon {
-  font-size: 3rem;
+  font-size: 4vw;
+  font-family: Verdana, Arial, sans-serif;
 }
 
 .w3-panel {
