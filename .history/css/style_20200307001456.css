@@ -220,11 +220,15 @@ h4 {
     font-family: Verdana, Arial, sans-serif;
     font-size: 4vw;
     line-height: 4.2vw;
+    transition: width 2s, height 2s, transform 2s;
 }
 
 .btn-large:hover {
     color: #4405d6;
     background-color: lightblue;
+    width: 1.5%;
+    height: 1.5%;
+    perspective: 45px;
 }
 
 .btn-large1 {

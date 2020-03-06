@@ -6,5 +6,10 @@
         "windfinder",
         "windmap",
         "wmap"
-    ]
+    ],
+    "editor.wordWrap": "on",
+    "editor.defaultFormatter": "vscode.configuration-editing",
+    "editor.tabCompletion": "on",
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true
 }
