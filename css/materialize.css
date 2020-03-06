@@ -2181,18 +2181,6 @@ section {
     display: block;
 }
 
-
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-}
-
-
 /* Grouping content
    ========================================================================== */
 
@@ -6265,8 +6253,8 @@ button:focus {
 }
 
 label {
-    font-size: 0.8rem;
-    color: #9e9e9e;
+    font-size: 1.5rem;
+    color: darkblue;
 }
 
 
@@ -6310,12 +6298,12 @@ input[type=search]:not(.browser-default),
 textarea.materialize-textarea {
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid #9e9e9e;
+    border-bottom: 3px solid #9e9e9e;
     border-radius: 25;
     outline: none;
     height: 3rem;
     width: 100%;
-    font-size: 16px;
+    font-size: 25px;
     margin: 0 0 8px 0;
     padding: 0;
     -webkit-box-shadow: none;
