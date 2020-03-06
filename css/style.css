@@ -180,28 +180,28 @@ div.desc {
 }
 
 h1 {
-  font-size: 7vw;
+  font-size: 6vw;
   color: blue;
   background-color: rgba(143, 245, 189, 0.7);
   border-radius: 25px;
 }
 
 h2 {
-  font-size: 6vw;
+  font-size: 5vw;
   color: #180658;
   background-color: rgba(156, 185, 248, 0.7);
   border-radius: 25px;
 }
 
 h3 {
-  font-size: 5vw;
+  font-size: 4vw;
   color: #180658;
   background-color: rgba(143, 245, 189, 0.7);
   border-radius: 25px;
 }
 
 h4 {
-  font-size: 4vw;
+  font-size: 3vw;
   color: #180658;
   background-color: rgba(143, 245, 189, 0.8);
   border-radius: 25px;
