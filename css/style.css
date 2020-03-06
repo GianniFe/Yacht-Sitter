@@ -2,6 +2,9 @@ body {
   background-image: url(background1.jpg);
   background-attachment: fixed;
   background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .nav .brand-logo {
@@ -24,10 +27,11 @@ body {
 }
 
 p {
-  line-height: 2rem;
+  line-height: 3vw;
   margin: 10px;
-  color: rgb(25, 6, 134);
-  font-size: 1.8rem;
+  color: blue;
+  font-family: Verdana, Arial, serif;
+  font-size: 2.5vw;
   background-color: rgba(143, 245, 189, 0.7);
   border-radius: 25px
 }
@@ -176,28 +180,28 @@ div.desc {
 }
 
 h1 {
-  font-size: 4.5rem;
-  color: #180658;
+  font-size: 7vw;
+  color: blue;
   background-color: rgba(143, 245, 189, 0.7);
   border-radius: 25px;
 }
 
 h2 {
-  font-size: 4rem;
+  font-size: 6vw;
   color: #180658;
   background-color: rgba(156, 185, 248, 0.7);
   border-radius: 25px;
 }
 
 h3 {
-  font-size: 3.5rem;
+  font-size: 5vw;
   color: #180658;
   background-color: rgba(143, 245, 189, 0.7);
   border-radius: 25px;
 }
 
 h4 {
-  font-size: 2.5rem;
+  font-size: 4vw;
   color: #180658;
   background-color: rgba(143, 245, 189, 0.8);
   border-radius: 25px;
@@ -457,7 +461,8 @@ html {
 }
 
 body {
-  margin: 0
+  margin: 0;
+  display: flex;
 }
 
 article,
@@ -516,6 +521,7 @@ abbr[title] {
 
 b,
 strong {
+  font-family: Verdana, Arial, serif;
   font-weight: bolder
 }
 
@@ -655,30 +661,6 @@ textarea {
 
 html {
   overflow-x: hidden
-}
-
-h1 {
-  font-size: 4.5rem;
-}
-
-h2 {
-  font-size: 40px
-}
-
-h3 {
-  font-size: 35px
-}
-
-h4 {
-  font-size: 30px
-}
-
-h5 {
-  font-size: 25px
-}
-
-h6 {
-  font-size: 16px
 }
 
 .w3-serif {
@@ -2388,10 +2370,10 @@ a {
 }
 
 #introduc {
+  display: flex;
+  flex-wrap: wrap;
   background-color: lightblue;
-  font-size: 25px;
-  color: blue;
-  width: 100%;
+  width: 90%;
   height: auto;
   border-radius: 25px;
   border: 4px solid darkblue;
@@ -2523,7 +2505,7 @@ a {
 .container {
   display: block;
   position: relative;
-  padding-left: 35px;
+  padding: 0 50px;
   margin-bottom: 12px;
   cursor: pointer;
   font-size: 22px;
@@ -2553,14 +2535,16 @@ a {
   left: 0;
   height: 25px;
   width: 35px;
-  background-color: rgb(34, 11, 245);
+  background-color: rgba(140, 110, 245, 0.5);
+  border-radius: 25%;
+  padding: 0 10px;
 }
 
 
 /* On mouse-over, add a grey background color */
 
 .container:hover input~.checkmark {
-  background-color: rgb(245, 60, 60);
+  background-color: rgba(245, 100, 60, 0.5);
 }
 
 
@@ -2596,6 +2580,7 @@ a {
   height: 10px;
   border: solid white;
   border-width: 0 3px 3px 0;
+  border-radius; 25%;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
@@ -2609,3 +2594,4 @@ input[type=checkbox] {
   border: 2px solid red;
   border-radius: 4px;
 }
+
