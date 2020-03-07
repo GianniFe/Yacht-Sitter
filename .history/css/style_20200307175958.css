@@ -2384,7 +2384,7 @@ a {
     border-color: #e7ffff !important
 }
 
-.introduc {
+#introduc {
     display: flex;
     flex-wrap: wrap;
     background-color: lightblue;
@@ -2394,7 +2394,7 @@ a {
     border: 4px solid darkblue;
     padding: 60px 40px;
     text-align: center;
-    align-items: center;
+    align-content: center;
 }
 
 .opening {

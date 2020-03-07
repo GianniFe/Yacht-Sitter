@@ -190,7 +190,6 @@ h1 {
 
 h2 {
     font-size: 4vw;
-    line-height: 4.5vw;
     color: #2a07a7;
     background-color: rgba(77, 132, 250, 0.7);
     border-radius: 25px;
@@ -2384,7 +2383,7 @@ a {
     border-color: #e7ffff !important
 }
 
-.introduc {
+#introduc {
     display: flex;
     flex-wrap: wrap;
     background-color: lightblue;
@@ -2394,7 +2393,7 @@ a {
     border: 4px solid darkblue;
     padding: 60px 40px;
     text-align: center;
-    align-items: center;
+    align-content: center;
 }
 
 .opening {
