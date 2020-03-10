@@ -28,16 +28,6 @@ body {
     padding: 0 15rem;
 }
 
-p {
-    line-height: 3vw;
-    margin: 10px;
-    color: blue;
-    font-family: Verdana, Arial, sans-serif;
-    font-size: 2.5vw;
-    background-color: rgba(143, 245, 189, 0.7);
-    border-radius: 25px
-}
-
 #index-banner,
 parallax-container1 {
     color: #05045a;
@@ -49,6 +39,8 @@ parallax-container1 {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 50rem;
+    align-items: center;
+    justify-content: center;
 }
 
 #index-banner2,
@@ -183,45 +175,80 @@ div.desc {
 
 h1 {
     font-size: 6vw;
+    line-height: 110%;
     color: blue;
     background-color: rgba(143, 245, 189, 0.7);
     border-radius: 25px;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 h2 {
-    font-size: 4vw;
-    line-height: 4.5vw;
-    color: #2a07a7;
-    background-color: rgba(77, 132, 250, 0.7);
+    font-size: 5vw;
+    line-height: 110%;
+    color: #180658;
+    background-color: rgba(156, 185, 248, 0.7);
     border-radius: 25px;
-    align-content: center;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 h3 {
-    font-size: 3vw;
+    font-size: 4vw;
+    line-height: 110%;
     color: #180658;
     background-color: rgba(143, 245, 189, 0.7);
     border-radius: 25px;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 h4 {
-    font-size: 2vw;
+    font-size: 3vw;
+    line-height: 110%;
     color: #180658;
     background-color: rgba(143, 245, 189, 0.8);
     border-radius: 25px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+h5 {
+    font-size: 2vw;
+    line-height: 110%;
+    color: #180658;
+    background-color: rgba(143, 245, 189, 0.8);
+    border-radius: 25px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+h6 {
+    font-size: 1.5vw;
+    line-height: 110%;
+    color: #180658;
+    background-color: rgba(143, 245, 189, 0.8);
+    border-radius: 25px;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+
+p {
+    line-height: 110%;
+    margin: 10px;
+    color: blue;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 2.5vw;
+    background-color: rgba(143, 245, 189, 0.7);
+    border-radius: 25px
 }
 
 .btn-large {
-    width: 100%;
+    width: 80%;
     height: auto;
-    color: white;
-    background-color: #ef5350;
-    margin-top: 5rem;
+    color: darkblue;
+    background-color: rgba(239, 83, 80, 0.5);
     border-radius: 25px;
     padding: 5px;
     font-family: Verdana, Arial, sans-serif;
     font-size: 4vw;
     line-height: 4.2vw;
+    align-items: center;
 }
 
 .btn-large:hover {
@@ -230,12 +257,16 @@ h4 {
 }
 
 .btn-large1 {
-    width: 100%;
-    border-radius: 25px;
-    padding: 5px;
-    font-family: Verdana, Arial, sans-serif;
-    font-size: 4vw;
-    line-height: 4.2vw;
+  width: 80%;
+  height: auto;
+  color: darkblue;
+  background-color: rgba(239, 83, 80, 0.5);
+  border-radius: 25px;
+  padding: 5px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 4vw;
+  line-height: 4.2vw;
+  align-items: center;
 }
 
 .btn-large1:hover {
@@ -269,16 +300,16 @@ h4 {
 }
 
 .btn-registrazione {
-    width: 100%;
-    height: auto;
-    padding: 10px;
-    background-color: #ef5350;
-    color: white;
-    font-family: Verdana, Arial, sans-serif;
-    line-height: 4.2vw;
-    font-size: 4vw;
-    text-align: center;
-    border-radius: 25px;
+  width: 80%;
+  height: auto;
+  color: darkblue;
+  background-color: rgba(239, 83, 80, 0.5);
+  border-radius: 25px;
+  padding: 5px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 4vw;
+  line-height: 4.2vw;
+  align-items: center;
 }
 
 .btn-registrazione:hover {
@@ -2384,7 +2415,7 @@ a {
     border-color: #e7ffff !important
 }
 
-.introduc {
+#introduc {
     display: flex;
     flex-wrap: wrap;
     background-color: lightblue;
@@ -2394,7 +2425,6 @@ a {
     border: 4px solid darkblue;
     padding: 60px 40px;
     text-align: center;
-    align-items: center;
 }
 
 .opening {
@@ -2596,7 +2626,8 @@ a {
     height: 10px;
     border: solid white;
     border-width: 0 3px 3px 0;
-    border-radius: 25%;
+    border-radius;
+    25%;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
