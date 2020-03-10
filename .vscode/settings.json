@@ -1,11 +1,16 @@
 {
     "cSpell.words": [
+        "Spinreverse",
+        "backimg",
+        "containerg",
         "gianni",
         "gmap",
         "nofollow",
+        "spehere",
         "windfinder",
         "windmap",
-        "wmap"
+        "wmap",
+        "worldmap"
     ],
     "editor.wordWrap": "on",
     "editor.defaultFormatter": "vscode.configuration-editing",
