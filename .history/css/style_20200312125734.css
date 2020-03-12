@@ -2618,9 +2618,10 @@ a {
     top: 5px;
     width: 5px;
     height: 10px;
-    border: solid rgb(255, 255, 255);
+    border: solid white;
     border-width: 0 3px 3px 0;
-    border-radius: 25%;
+    border-radius;
+    25%;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);

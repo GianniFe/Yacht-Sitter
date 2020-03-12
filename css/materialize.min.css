@@ -2150,6 +2150,11 @@ html {
 }
 
 body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: content-box;
     margin: 0
 }
 

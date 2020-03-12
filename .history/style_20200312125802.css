@@ -6,7 +6,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 .nav .brand-logo {
@@ -30,6 +30,8 @@ body {
 
 #index-banner,
 parallax-container1 {
+    display: flex;
+    flex-wrap: wrap;
     color: #05045a;
     font-size: 3rem;
     font-weight: normal;
@@ -45,6 +47,8 @@ parallax-container1 {
 
 #index-banner2,
 parallax-container2 {
+    display: flex;
+    flex-wrap: wrap;
     color: #05045a;
     font-size: 3rem;
     font-weight: normal;
@@ -76,14 +80,22 @@ parallax-container2 {
 }
 
 table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
     border-collapse: collapse;
     width: 100%;
 }
 
-th,
+th {
+    text-align: center;
+    padding: 8px;
+    font-size: 1.4rem;
+}
+
 td {
     text-align: left;
     padding: 8px;
+    font-size: 1rem;
 }
 
 tr:nth-child(even) {
@@ -100,7 +112,7 @@ div.gallery {
 
 div.gallery:hover {
     border: 3px solid red;
-    background-color: gold;
+    background-color: rgb(0, 153, 255);
 }
 
 div.gallery img {
@@ -114,16 +126,13 @@ div.desc {
     text-align: center;
     background-color: rgba(128, 208, 245, 0.7);
     border-radius: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
 }
 
 * {
-    box-sizing: border-box;
-}
-
-.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
+    box-sizing: content-box;
+    width: 100%;
 }
 
 @media only screen and (max-width: 700px) {
@@ -146,6 +155,8 @@ div.desc {
 }
 
 .container2 {
+    display: flex;
+    flex-wrap: wrap;
     border: 2 px solid blue;
     display: flex;
     flex-wrap: wrap;
@@ -164,17 +175,24 @@ div.desc {
 }
 
 .Moorings {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
     padding-top: 90px;
+    align-items: center;
+    justify-content: center;
 }
 
 .Location {
+    display: flex;
+    flex-wrap: wrap;
     padding-top: 50px;
     height: 100%;
     width: 100%;
 }
 
 h1 {
-    font-size: 6vw;
+    font-size: 4.2rem;
     line-height: 110%;
     color: blue;
     background-color: rgba(143, 245, 189, 0.7);
@@ -183,7 +201,7 @@ h1 {
 }
 
 h2 {
-    font-size: 5vw;
+    font-size: 3.5rem;
     line-height: 110%;
     color: #180658;
     background-color: rgba(156, 185, 248, 0.7);
@@ -192,7 +210,7 @@ h2 {
 }
 
 h3 {
-    font-size: 4vw;
+    font-size: 3rem;
     line-height: 110%;
     color: #180658;
     background-color: rgba(143, 245, 189, 0.7);
@@ -201,7 +219,7 @@ h3 {
 }
 
 h4 {
-    font-size: 3vw;
+    font-size: 2.6rem;
     line-height: 110%;
     color: #180658;
     background-color: rgba(143, 245, 189, 0.8);
@@ -210,7 +228,7 @@ h4 {
 }
 
 h5 {
-    font-size: 2vw;
+    font-size: 2rem;
     line-height: 110%;
     color: #180658;
     background-color: rgba(143, 245, 189, 0.8);
@@ -219,7 +237,7 @@ h5 {
 }
 
 h6 {
-    font-size: 1.5vw;
+    font-size: 1.8rem;
     line-height: 110%;
     color: #180658;
     background-color: rgba(143, 245, 189, 0.8);
@@ -227,21 +245,47 @@ h6 {
     font-family: Verdana, Arial, sans-serif;
 }
 
+
 p {
     line-height: 110%;
     margin: 10px;
     color: blue;
     font-family: Verdana, Arial, sans-serif;
-    font-size: 2.5vw;
+    font-size: 2rem;
     background-color: rgba(143, 245, 189, 0.7);
     border-radius: 25px
 }
+
+label {
+    color: blue;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 2rem;
+    background-color: rgba(143, 245, 189, 0.7);
+    border-radius: 25px
+}
+
+::placeholder {
+    color: rgb(4, 4, 66);
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.8rem;
+    background-color: rgba(143, 245, 189, 0.7);
+    border-radius: 25px
+}
+
+textarea {
+    color: blue;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 2rem;
+    background-color: rgba(143, 245, 189, 0.7);
+    border-radius: 25px
+}
+
 
 .btn-large {
     width: 80%;
     height: auto;
     color: darkblue;
-    background-color: rgba(239, 83, 80, 0.5);
+    background-color: rgba(239, 83, 80, 0.8);
     border-radius: 25px;
     padding: 5px;
     font-family: Verdana, Arial, sans-serif;
@@ -256,16 +300,16 @@ p {
 }
 
 .btn-large1 {
-    width: 80%;
-    height: auto;
-    color: darkblue;
-    background-color: rgba(239, 83, 80, 0.5);
-    border-radius: 25px;
-    padding: 5px;
-    font-family: Verdana, Arial, sans-serif;
-    font-size: 4vw;
-    line-height: 4.2vw;
-    align-items: center;
+  width: 80%;
+  height: auto;
+  color: darkblue;
+  background-color: rgba(239, 83, 80, 0.8);
+  border-radius: 25px;
+  padding: 5px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 4vw;
+  line-height: 4.2vw;
+  align-items: center;
 }
 
 .btn-large1:hover {
@@ -299,16 +343,16 @@ p {
 }
 
 .btn-registrazione {
-    width: 80%;
-    height: auto;
-    color: darkblue;
-    background-color: rgba(239, 83, 80, 0.5);
-    border-radius: 25px;
-    padding: 5px;
-    font-family: Verdana, Arial, sans-serif;
-    font-size: 4vw;
-    line-height: 4.2vw;
-    align-items: center;
+  width: 80%;
+  height: auto;
+  color: darkblue;
+  background-color: rgba(239, 83, 80, 0.8);
+  border-radius: 25px;
+  padding: 5px;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 4vw;
+  line-height: 4.2vw;
+  align-items: center;
 }
 
 .btn-registrazione:hover {
@@ -344,25 +388,13 @@ p {
     background-position: center;
 }
 
-.contact {
-    font-size: 2.5rem;
-    border-radius: 25px;
-    padding: 10rem 25rem;
-    height: auto;
-    background-image: url(img1.jpg);
-    border-radius: 25px;
-    max-width: 100%;
-    height: auto;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-
 .container1 {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     border-radius: 25px;
+    align-items: center;
+    justify-content: center;
 }
 
 .item {
@@ -376,12 +408,14 @@ p {
 }
 
 .parallax-container1 {
-    width: 100%;
+    width: 80%;
     min-height: 800px;
     line-height: 1.5;
     height: auto;
     color: rgba(255, 255, 255, .5);
     border-radius: 25px;
+    align-items: center;
+    justify-content: center;
 }
 
 .parallax-container2 {
@@ -390,29 +424,49 @@ p {
     height: auto;
     color: rgba(255, 255, 255, .5);
     border-radius: 25px;
+    align-items: center;
+    justify-content: center;
 }
+
+#ww3g {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: coral;
+    box-sizing: border-box;
+    margin: auto;
+    background-color: rgba(143, 245, 189, 0.7);
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+} 
 
 @media only screen and (max-width: 992px) {
     .parallax-container1 .section {
-        width: 100%;
+        width: 80%;
         height: auto;
-        position: absolute;
         top: 40%;
         border-radius: 25px;
+        align-items: center;
+        justify-content: center;
     }
     #index-banner .section {
         top: 10%;
+        align-items: center;
+        justify-content: center;
     }
 }
 
 @media only screen and (max-width: 992px) {
     .parallax-container2 .section {
-        position: absolute;
         top: 40%;
         border-radius: 25px;
+        align-items: center;
+        justify-content: center;
     }
     #index-banner .section {
         top: 10%;
+        align-items: center;
+        justify-content: center;
     }
 }
 
@@ -421,11 +475,15 @@ p {
         width: 100%;
         top: 20%;
         height: auto;
+        align-items: center;
+        justify-content: center;
     }
     .item {
         background: rgba(255, 255, 255, .5);
         flex-basis: 50%;
         padding: 30%;
+        align-items: center;
+        justify-content: center;
     }
     .nav-wrapper {
         padding: 0 10px;
@@ -444,12 +502,18 @@ p {
     font-size: 2.5rem;
     border-radius: 25px;
     padding: 5rem 5rem;
+    height: auto;
+    background-image: url(img1.jpg);
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 
 .social-icon {
     font-size: 5rem;
     color: #ef5350;
-    padding: 20px 80px;
+    padding: 30px 80px;
 }
 
 .social-icon:hover {
@@ -461,6 +525,8 @@ p {
 }
 
 .footer-copyright {
+    align-items: center;
+    justify-content: center;
     font-size: 0.8rem;
     background-color: #e1e1e9;
     border-radius: 25px;
@@ -468,40 +534,47 @@ p {
 
 #imgsc {
     border-radius: 25px;
-    position: relative;
-    left: 20%;
-}
-
-#windmap {
-    display: flex;
-    height: 600px;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-}
-
-#wmap {
-    background-color: rgba (30, 244, 255, 0.6);
-    width: 50%;
-    height: auto;
-    flex-grow: 1.5;
+    justify-content: center;
 }
 
 #gmap {
-    background-color: rgba (30, 244, 255, 0.6);
-    width: 50%;
-    height: auto;
-    flex-grow: 1.5;
+    margin: 80%;
+    min-width: 360px;
+    min-height: 680px;
+    padding: 5px;
+    border: 3px solid blue;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(243, 245, 249, 0.7);
+}
+
+#wmap {
+    margin: 80%;
+    min-width: 360px;
+    min-height: 680px;
+    padding: 5px;
+    border: 3px solid blue;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(143, 245, 189, 0.7);
 }
 
 .localnews {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
     padding-top: 60px;
     border-radius: 25px;
     font-size: 1.2rem;
 }
 
 html {
-    box-sizing: border-box
+    box-sizing: content-box
 }
 
 article,
@@ -1523,18 +1596,23 @@ a {
 }
 
 #w3g {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
     font-size: 2rem;
     border-radius: 25px;
     padding-top: 80px;
-    margin: 30px;
     width: 80%;
     height: auto;
     background-color: rgba(128, 208, 245, 0.7);
 }
 
 .social-icon {
-    font-size: 4vw;
+    font-size: 5rem;
     font-family: Verdana, Arial, sans-serif;
+    padding: 40px;
 }
 
 .w3-panel {
@@ -2618,7 +2696,7 @@ a {
     top: 5px;
     width: 5px;
     height: 10px;
-    border: solid rgb(255, 255, 255);
+    border: solid white;
     border-width: 0 3px 3px 0;
     border-radius: 25%;
     -webkit-transform: rotate(45deg);
