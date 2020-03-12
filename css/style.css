@@ -78,12 +78,19 @@ parallax-container2 {
 table {
     border-collapse: collapse;
     width: 100%;
+    font-family: Verdana, Arial, Tahoma, sans-serif;
 }
 
-th,
+th {
+    text-align: left;
+    padding: 8px;
+    font-size: 1.2rem;
+}
+
 td {
     text-align: left;
     padding: 8px;
+    font-size: 1rem;
 }
 
 tr:nth-child(even) {
@@ -114,6 +121,9 @@ div.desc {
     text-align: center;
     background-color: rgba(128, 208, 245, 0.7);
     border-radius: 25px;
+    font-family: Verdana, Arial, Tahoma, sans-serif;
+    color: blue;
+    font-size: 2rem;
 }
 
 * {
@@ -1500,8 +1510,6 @@ a {
 }
 
 .w3-container2 {
-    font-size: 1rem;
-    color: #05045ae1;
     border-radius: 25px;
     margin: 40px;
     width: 80%;
