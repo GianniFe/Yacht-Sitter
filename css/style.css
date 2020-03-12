@@ -478,8 +478,7 @@ p {
 
 #imgsc {
     border-radius: 25px;
-    position: relative;
-    left: 20%;
+    align-items: center;
 }
 
 #windmap {
