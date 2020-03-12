@@ -19,7 +19,7 @@ body {
     width: 100%;
     height: auto;
     font-family: Verdana, Arial, sans-serif;
-    font-size: 2vw;
+    font-size: 1rem;
 }
 
 .nav ul a {
@@ -100,7 +100,7 @@ div.gallery {
 
 div.gallery:hover {
     border: 3px solid red;
-    background-color: gold;
+    background-color: blue;
 }
 
 div.gallery img {
@@ -174,7 +174,7 @@ div.desc {
 }
 
 h1 {
-    font-size: 6vw;
+    font-size: 3.5rem;
     line-height: 110%;
     color: blue;
     background-color: rgba(143, 245, 189, 0.7);
@@ -183,7 +183,7 @@ h1 {
 }
 
 h2 {
-    font-size: 5vw;
+    font-size: 3rem;
     line-height: 110%;
     color: #180658;
     background-color: rgba(156, 185, 248, 0.7);
@@ -192,7 +192,7 @@ h2 {
 }
 
 h3 {
-    font-size: 4vw;
+    font-size: 2.5rem;
     line-height: 110%;
     color: #180658;
     background-color: rgba(143, 245, 189, 0.7);
@@ -201,7 +201,7 @@ h3 {
 }
 
 h4 {
-    font-size: 3vw;
+    font-size: 2rem;
     line-height: 110%;
     color: #180658;
     background-color: rgba(143, 245, 189, 0.8);
@@ -210,7 +210,7 @@ h4 {
 }
 
 h5 {
-    font-size: 2vw;
+    font-size: 1.5rem;
     line-height: 110%;
     color: #180658;
     background-color: rgba(143, 245, 189, 0.8);
@@ -219,7 +219,7 @@ h5 {
 }
 
 h6 {
-    font-size: 1.5vw;
+    font-size: 1.2rem;
     line-height: 110%;
     color: #180658;
     background-color: rgba(143, 245, 189, 0.8);
@@ -232,7 +232,7 @@ p {
     margin: 10px;
     color: blue;
     font-family: Verdana, Arial, sans-serif;
-    font-size: 2.5vw;
+    font-size: 2.2rem;
     background-color: rgba(143, 245, 189, 0.7);
     border-radius: 25px
 }
@@ -245,8 +245,8 @@ p {
     border-radius: 25px;
     padding: 5px;
     font-family: Verdana, Arial, sans-serif;
-    font-size: 4vw;
-    line-height: 4.2vw;
+    font-size: 3rem;
+    line-height: 110%;
     align-items: center;
 }
 
@@ -263,8 +263,8 @@ p {
     border-radius: 25px;
     padding: 5px;
     font-family: Verdana, Arial, sans-serif;
-    font-size: 4vw;
-    line-height: 4.2vw;
+    font-size: 3rem;
+    line-height: 110%;
     align-items: center;
 }
 
@@ -306,8 +306,8 @@ p {
     border-radius: 25px;
     padding: 5px;
     font-family: Verdana, Arial, sans-serif;
-    font-size: 4vw;
-    line-height: 4.2vw;
+    font-size: 3rem;
+    line-height: 110%;
     align-items: center;
 }
 
@@ -1533,8 +1533,9 @@ a {
 }
 
 .social-icon {
-    font-size: 4vw;
+    font-size: 3.5rem;
     font-family: Verdana, Arial, sans-serif;
+    padding: 30px 60px;
 }
 
 .w3-panel {
